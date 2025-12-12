@@ -1,12 +1,17 @@
 {
   "name": "authguard-completo",
   "version": "3.0.0",
-  "description": "Sistema completo de gerenciamento de licenças - Clone do AuthGuard.org",
+  "description": "Sistema completo de gerenciamento de licenças",
   "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Build complete'"
+  },
   "dependencies": {
     "mongodb": "^6.3.0",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
-    "nanoid": "^3.3.7"
+    "nanoid": "^3.3.7",
+    "express": "^4.18.2"
   }
 }
